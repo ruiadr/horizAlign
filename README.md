@@ -29,4 +29,4 @@ $('ol.mycustomclass ul').horizAlign ('> a');
 ```
 
 * 'ol.mycustomclass ul': correspond à l'élément absolu à aligner ;
-* '> a': correpond à la référence "mère" sur laquelle baser l'alignement.
+* '> a': correpond à la référence "mère" sur laquelle baser l'alignement (en partant du parent direct de this).
