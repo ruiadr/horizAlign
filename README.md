@@ -24,7 +24,7 @@ Aligne horizontalement un élément absolu par rapport à son parent relatif à 
 </ol>
 ```
 
-```html
+```javascript
 $('ol.mycustomclass ul').horizAlign ('> a');
 ```
 
